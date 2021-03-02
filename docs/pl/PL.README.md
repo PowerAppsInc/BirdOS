@@ -1,0 +1,2 @@
+# BirdOS
+BirdOS to system operacyjny stworzony na podstawie bloga [Philipa-Oppermana] (https://os.phil-opp.com/).BirdOS jest systemem hobbistycznym i  stworzonym do nauki tworzenia systemów operacyjnych
