@@ -3,3 +3,12 @@ BirdOS to system operacyjny stworzony na podstawie bloga [Philipa-Oppermana] (ht
 BirdOS nie jest stworzony do zastompienia Windowsa ani nigdy go nie zastompi. Jedyne możliwe narazie uruchamianie to uruchamiania go na [Qemu] (www.qemu.org).
 
 # Budowanie BirdOS
+Aby zbudować BirdOS należy zainstalować kilka rzeczy:
+- Qemu ze strony  www.qemu.org 
+- Rust ze stron  www.rust-lang.org
+>Po zainstalowaniu Qemu trzeba dodać do ścieżki Path (w systemie Windows).
+>A po zainstalowaniu Rust trzeba przełączyć się na Nightly Rust używając tej komendy w Wierszu Poleceń: ``` rustup default nightly```
+
+```cmd
+rustup default nightly
+```
