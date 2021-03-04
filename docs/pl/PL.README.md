@@ -15,4 +15,8 @@ rustup default nightly
 ```
 
 Warto też zainstalować preferowany edytor kodu. Moim preferowanym jest [VSCode](code.visualstudio.com)
-## Teraz zkonfigurujemy Rust 
+## Konfiguracja  Rust 
+Teraz zkonfigurujemy Rust i inne dodatkowe elementy. 
+Trzeba zainstalować dodatkowe komponenty używając tych poleceń:
+```cmd
+rustup component add llvm-tools-preview```
