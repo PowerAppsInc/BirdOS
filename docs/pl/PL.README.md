@@ -6,7 +6,8 @@ BirdOS nie jest stworzony do zastompienia Windowsa ani nigdy go nie zastompi. Je
 Aby zbudować BirdOS należy zainstalować kilka rzeczy:
 - Qemu ze strony  www.qemu.org 
 - Rust ze stron  www.rust-lang.org
->Po zainstalowaniu Qemu trzeba dodać do ścieżki Path (w systemie Windows).
+- Git ze strony git-scm.com 
+>Po zainstalowaniu, Qemu trzeba dodać do ścieżki Path (w systemie Windows).
 >A po zainstalowaniu Rust trzeba przełączyć się na Nightly Rust używając tej komendy w Wierszu Poleceń: ``` rustup default nightly```
 
 ```cmd
