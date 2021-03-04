@@ -19,4 +19,15 @@ Warto też zainstalować preferowany edytor kodu. Moim preferowanym jest [VSCode
 Teraz zkonfigurujemy Rust i inne dodatkowe elementy. 
 Trzeba zainstalować dodatkowe komponenty używając tych poleceń:
 ```cmd
-rustup component add llvm-tools-preview```
+rustup component add llvm-tools-preview rust-src
+```
+Oraz instalujemy: 
+```cmd
+cargo install bootimage 
+```
+Po skonfigurowaniu można pobrać i uruchomić projekt w nastepujący sposób:
+```cmd
+git clone https://github.com/PowerAppsInc/BirdOS.git
+cd BirdOS
+cargo run
+```
