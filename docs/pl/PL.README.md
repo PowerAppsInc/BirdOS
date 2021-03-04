@@ -13,3 +13,4 @@ Aby zbudować BirdOS należy zainstalować kilka rzeczy:
 ```cmd
 rustup default nightly
 ```
+Warto też zainstalować preferowany edytor kodu (np. [VSCode] (code.visualstudio.com) sam go używam. )
