@@ -13,5 +13,6 @@ Aby zbudować BirdOS należy zainstalować kilka rzeczy:
 ```cmd
 rustup default nightly
 ```
-Warto też zainstalować preferowany edytor kodu np. [VS Code] (code.visualstudio.com).
+
+Warto też zainstalować preferowany edytor kodu. Moim preferowanym jest [VSCode](code.visualstudio.com)
 ## Teraz zkonfigurujemy Rust 
