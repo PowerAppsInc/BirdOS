@@ -47,5 +47,6 @@ make all
 ```
 # Reszta dokumentacji
 > Tutaj są  linki do innych plików dokumentacji
-TODO: Dodać linki
-[Licencja](/LICENSE)
+
+- Przeczytaj [Licencję](/LICENSE)
+- Zobacz także [Testowanie](/docs/pl/TESTING.md)
