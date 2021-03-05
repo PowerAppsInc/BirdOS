@@ -46,3 +46,4 @@ make all
 ```
 # Reszta dokumentacji
 > Tutaj są  linki do innych plików dokumentacji
+TODO: Dodać linki
