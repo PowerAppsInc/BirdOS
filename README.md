@@ -38,7 +38,7 @@ cargo run
 The result of the comand is here -> ```cargo run ```
 
 ![Hello World](/demo/helloworld.png)
-# Worklof automation  
+# Workflow automation  
  For Windows use file ```compile.bat```. To run this file use command below in command line :
 ```cmd
 compile
