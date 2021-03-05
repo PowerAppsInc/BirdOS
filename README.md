@@ -11,7 +11,7 @@ To construct BirdOS you have to instal :
 - Qemu www.qemu.org 
 >After instalation you have to add it to Path (on Windows).
 - Rust www.rust-lang.org
->After instalation change mode to Nightly Rust use this command in command line: ``` rustup default nightly```
+>After instalation change mode to Nightly Rust. Use this command in command line: ``` rustup default nightly```
 - Git  git-scm.com 
 
 ```cmd
