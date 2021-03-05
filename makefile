@@ -1,7 +1,8 @@
-
+clean:
+	del .\target
 build:
 	cargo build 
 run: 
 	cargo run
 
-all: build run 
+all: clean build run 

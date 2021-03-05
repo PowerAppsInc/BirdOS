@@ -35,3 +35,12 @@ cargo run
 Tutaj zamieszczony jest wynik polecenia ```cargo run ```
 
 ![Hello World](/demo/helloworld.png)
+# Automatyzacja przepływu pracy 
+Dostępnych jest kilka konfiguracji przepływu pracy. Dla systemu Windows zalecany jest plik ```compile.bat```. Aby uruchomić ten plik w wierszu poleceń wpisz to polecenie:
+```cmd
+compile
+```
+Dla systemu Linux zalecane jest użycie programu Make. Aby uruchomić automatyzację uruchom to polecenie: 
+```bash
+make all
+```
