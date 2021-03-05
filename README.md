@@ -9,46 +9,45 @@ BirdOS will never replace Windows . Launch is only posible with [Qemu] (www.qemu
 # Constructing BirdOS
 To construct BirdOS you have to instal :
 - Qemu www.qemu.org 
+>After instalation you have to add it to Path (on Windows).
 - Rust www.rust-lang.org
+>After instalation change mode to Nightly Rust use this command in command line: ``` rustup default nightly```
 - Git  git-scm.com 
->Po zainstalowaniu, Qemu trzeba dodać do ścieżki Path (w systemie Windows).
->A po zainstalowaniu Rust trzeba przełączyć się na Nightly Rust używając tej komendy w Wierszu Poleceń: ``` rustup default nightly```
 
 ```cmd
 rustup default nightly
 ```
 
-Warto też zainstalować preferowany edytor kodu. Moim preferowanym jest [VSCode](code.visualstudio.com)
-## Konfiguracja  Rust 
-Teraz zkonfigurujemy Rust i inne dodatkowe elementy. 
-Trzeba zainstalować dodatkowe komponenty używając tych poleceń:
+You may instal code editor too. For example  [VSCode](code.visualstudio.com)
+## Rust configuration
+You have to install additional components . Use commands:
 ```cmd
 rustup component add llvm-tools-preview rust-src
 ```
-Oraz instalujemy: 
+And install .
 ```cmd
 cargo install bootimage 
 ```
-Po skonfigurowaniu można pobrać i uruchomić projekt w nastepujący sposób:
+After configuration download and launch projekt in the following way:
 ```cmd
 git clone https://github.com/PowerAppsInc/BirdOS.git
 cd BirdOS
 cargo run
 ```
-# Uruchamianie 
-Tutaj zamieszczony jest wynik polecenia ```cargo run ```
+# Launching
+The result of the comand is here -> ```cargo run ```
 
 ![Hello World](/demo/helloworld.png)
-# Automatyzacja przepływu pracy 
-Dostępnych jest kilka konfiguracji przepływu pracy. Dla systemu Windows zalecany jest plik ```compile.bat```. Aby uruchomić ten plik w wierszu poleceń wpisz to polecenie:
+# Worklof automation  
+ For Windows use file ```compile.bat```. To run this file use command below in command line :
 ```cmd
 compile
 ```
-Dla systemu Linux zalecane jest użycie programu Make. Aby uruchomić automatyzację uruchom to polecenie: 
+For Linux use program Make. To run workflow use command below: 
 ```bash
 make all
 ```
-# Reszta dokumentacji
-> Tutaj są  linki do innych plików dokumentacji
+# The rest of the documentation 
+> Links are below.
 TODO: Dodać linki
 [Licencja](/LICENSE)
