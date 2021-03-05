@@ -44,3 +44,5 @@ Dla systemu Linux zalecane jest użycie programu Make. Aby uruchomić automatyza
 ```bash
 make all
 ```
+# Reszta dokumentacji
+> Tutaj są  linki do innych plików dokumentacji
