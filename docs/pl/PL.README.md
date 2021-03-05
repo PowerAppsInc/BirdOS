@@ -46,7 +46,7 @@ Dla systemu Linux zalecane jest użycie programu Make. Aby uruchomić automatyza
 make all
 ```
 # Reszta dokumentacji
-> Tutaj są  linki do innych plików dokumentacji
+>Zobacz także:
 
-- Przeczytaj [Licencję](/LICENSE)
-- Zobacz także [Testowanie](/docs/pl/TESTING.md)
+- [Licencję](/LICENSE)
+- [Testowanie](/docs/pl/TESTING.md)
